@@ -1,0 +1,76 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+import Card from "../components/Card.astro";
+import Button from "../components/Button.astro";
+---
+
+
+<MainLayout titulo="Soluciones | Igualdad ETP">
+  <section class="hero hero-secundario">
+    <div class="hero-content">
+      <p class="etiqueta">CONSTRUIR UN CAMBIO</p>
+
+
+      <h1>La igualdad comienza en la educación</h1>
+
+
+      <p>
+        Estudiantes, docentes, familias y establecimientos pueden colaborar
+        para crear ambientes de aprendizaje más inclusivos, respetuosos y
+        libres de discriminación.
+      </p>
+    </div>
+  </section>
+
+
+  <section class="seccion">
+    <h2>¿Cómo podemos promover la igualdad?</h2>
+
+
+    <div class="grid">
+      <Card
+        icono="🤝"
+        titulo="Promover el respeto"
+        descripcion="Evitar las burlas y tratar a todas las personas con dignidad."
+      />
+
+
+      <Card
+        icono="📚"
+        titulo="Educar sin prejuicios"
+        descripcion="Explicar que las capacidades no dependen del género."
+      />
+
+
+      <Card
+        icono="🌟"
+        titulo="Mostrar referentes"
+        descripcion="Visibilizar a mujeres y hombres que destacan en distintas áreas técnicas."
+      />
+
+
+      <Card
+        icono="🛡️"
+        titulo="Prevenir la discriminación"
+        descripcion="Promover espacios seguros y actuar frente al acoso y los tratos injustos."
+      />
+    </div>
+  </section>
+
+
+  <section class="destacado">
+    <h2>Tu futuro no tiene género</h2>
+
+
+    <p>
+      Una educación más igualitaria permite que cada estudiante desarrolle
+      su talento y elija su camino sin limitaciones impuestas por prejuicios.
+    </p>
+
+
+    <Button
+      texto="Volver al inicio"
+      enlace="/"
+    />
+  </section>
+</MainLayout>

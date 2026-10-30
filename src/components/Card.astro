@@ -1,0 +1,14 @@
+---
+const { titulo, descripcion, icono = "✦" } = Astro.props;
+---
+
+
+<article class="card">
+  <span class="card-icon" aria-hidden="true">{icono}</span>
+
+
+  <h3>{titulo}</h3>
+
+
+  <p>{descripcion}</p>
+</article>

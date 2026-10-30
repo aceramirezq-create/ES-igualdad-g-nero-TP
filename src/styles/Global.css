@@ -1,0 +1,115 @@
+/* NAVBAR */
+.navbar {
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 75px;
+  padding: 18px 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  background-color: #4c1d95;
+  color: white;
+  position: relative;
+  z-index: 10;
+}
+
+
+.navbar .logo {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+
+.navbar nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+
+.navbar nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+
+.navbar nav a:hover {
+  color: #ddd6fe;
+}
+
+
+.navbar nav a:focus-visible,
+.navbar .logo:focus-visible {
+  outline: 2px solid white;
+  outline-offset: 5px;
+}
+
+
+/* NAVBAR EN CELULARES */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    padding: 20px 12px;
+  }
+
+
+  .navbar nav {
+    gap: 12px 18px;
+  }
+
+
+  .navbar nav a {
+    font-size: 0.95rem;
+  }
+}
+
+/* FOOTER */
+.footer {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 60px;
+  padding: 35px 20px;
+  background-color: #2e1065;
+  color: white;
+  text-align: center;
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+
+.footer h3 {
+  max-width: 750px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+
+.footer p {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.7;
+}
+
+
+.footer .footer-credit {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}

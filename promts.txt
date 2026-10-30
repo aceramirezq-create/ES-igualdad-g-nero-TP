@@ -1,0 +1,36 @@
+#prompt 1
+
+Pages: Implementar al menos 3 páginas diferentes, con contenido propio.
+Components: Crear e implementar al menos 4 componentes reutilizables.
+Layouts: Implementar al menos 1 layout, utilizado para mantener una estructura común entre las páginas.
+Styles: Aplicar estilos CSS para definir colores, tipografías, distribución de elementos y presentación visual.
+Diseño responsive: Adaptar el sitio a dispositivos móviles y computadores.
+Navegación: Incorporar un menú de navegación funcional entre las 3 páginas.
+Accesibilidad: Utilizar etiquetas semánticas, textos alternativos en imágenes y colores que permitan una
+lectura adecuada.
+Organización: Mantener una estructura de carpetas y archivos ordenada, siguiendo las convenciones de Astro.
+
+#prompt 2
+
+esos son lo requisitos para hacer una pagina web en astro "igualdad de genero en la educacion tecnico profecional"
+
+#prompt 3
+
+proporcioname el codigo para poder hacerlo.
+
+#prompt 4
+
+me refiero al codigo html, css de los requisitos
+
+#prompt 5 
+
+no se encuentra el nombre 'Card'
+<Card
+  icono="⚖️"
+  titulo="Igualdad de oportunidades"
+  descripcion="Todas las personas deben poder elegir su especialidad sin prejuicios."
+/>
+
+# prompt 6
+
+El navbar nose aplica en niguna de las paginas y el footer no esta centrado.

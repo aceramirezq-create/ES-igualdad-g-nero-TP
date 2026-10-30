@@ -1,0 +1,84 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+import Card from "../components/Card.astro";
+import Button from "../components/Button.astro";
+---
+
+
+<MainLayout titulo="Desigualdad de género | Igualdad ETP">
+  <section class="hero hero-secundario">
+    <div class="hero-content">
+      <p class="etiqueta">COMPRENDER EL PROBLEMA</p>
+
+
+      <h1>¿Qué desigualdades existen?</h1>
+
+
+      <p>
+        En la Educación Técnico-Profesional pueden existir estereotipos,
+        prejuicios y barreras que influyen en las decisiones de los
+        estudiantes y en sus experiencias educativas.
+      </p>
+    </div>
+  </section>
+
+
+  <section class="seccion">
+    <h2>Principales desafíos</h2>
+
+
+    <div class="grid">
+      <Card
+        icono="💬"
+        titulo="Estereotipos"
+        descripcion="Pensar que algunas especialidades son solamente para mujeres o solamente para hombres."
+      />
+
+
+      <Card
+        icono="⚙️"
+        titulo="Barreras educativas"
+        descripcion="Encontrar dificultades para participar, sentirse incluido o acceder a las mismas oportunidades."
+      />
+
+
+      <Card
+        icono="🚫"
+        titulo="Discriminación"
+        descripcion="Enfrentar burlas, comentarios sexistas o tratos injustos por razón de género."
+      />
+
+
+      <Card
+        icono="👩‍🔧"
+        titulo="Falta de referentes"
+        descripcion="Tener pocas oportunidades de conocer personas de distintos géneros en ciertas profesiones."
+      />
+    </div>
+  </section>
+
+
+  <section class="seccion">
+    <h2>Un ejemplo cotidiano</h2>
+
+
+    <p>
+      Si una estudiante escucha que la mecánica no es para mujeres, o un
+      estudiante escucha que el cuidado infantil no es para hombres,
+      sus decisiones pueden verse afectadas por prejuicios.
+    </p>
+
+
+    <p>
+      Las habilidades profesionales se desarrollan mediante el estudio,
+      la práctica y la experiencia. El género no debería limitar las
+      aspiraciones de ninguna persona.
+    </p>
+
+
+    <Button
+      texto="Ver posibles soluciones"
+      enlace="/soluciones"
+    />
+  </section>
+</MainLayout>

@@ -1,16 +1,82 @@
 ---
+import MainLayout from "../layouts/MainLayout.astro";
+import Card from "../components/Card.astro";
+import Button from "../components/Button.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+
+<MainLayout titulo="Inicio | Igualdad de género">
+  <section class="hero">
+    <div class="hero-content">
+      <p class="etiqueta">EDUCACIÓN · RESPETO · IGUALDAD</p>
+
+
+      <h1>Tu talento no tiene género</h1>
+
+
+      <p>
+        La igualdad de género en la Educación Técnico-Profesional busca que
+        mujeres y hombres tengan las mismas oportunidades para estudiar,
+        desarrollar sus capacidades y construir su futuro.
+      </p>
+
+
+      <Button
+        texto="Conocer los desafíos"
+        enlace="/desigualdad"
+      />
+    </div>
+  </section>
+
+
+  <section class="seccion">
+    <h2>¿Por qué es importante la igualdad?</h2>
+
+
+    <p>
+      Todas las personas deben poder elegir una especialidad según sus
+      intereses, talentos y habilidades, sin que los estereotipos de género
+      limiten sus decisiones.
+    </p>
+
+
+    <div class="grid">
+      <Card
+        icono="⚖️"
+        titulo="Igualdad"
+        descripcion="Mismas oportunidades para aprender y desarrollar habilidades."
+      />
+
+
+      <Card
+        icono="🎓"
+        titulo="Educación"
+        descripcion="Una formación basada en el respeto y la inclusión."
+      />
+
+
+      <Card
+        icono="🚀"
+        titulo="Futuro"
+        descripcion="Libertad para elegir una profesión según la propia vocación."
+      />
+    </div>
+  </section>
+
+
+  <section class="destacado">
+    <h2>Las profesiones no tienen género</h2>
+
+
+    <p>
+      La electricidad, la mecánica, la programación y las áreas de cuidado
+      deben ser espacios abiertos a todas las personas.
+    </p>
+
+
+    <Button
+      texto="Descubrir soluciones"
+      enlace="/soluciones"
+    />
+  </section>
+</MainLayout>
